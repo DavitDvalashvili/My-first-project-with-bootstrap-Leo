@@ -1,0 +1,220 @@
+// color
+$bccolor1: #43A1D5;
+$color1: #D5B048;
+$color2: black;
+$color3: white;
+$color4: #173E69;
+
+// size
+$size1: 10px; 
+$size2: 15px;
+$size3: 12px;
+$size4: 22px;
+$size5: 40px;
+$size6: 18px;
+
+// index html
+
+body {
+  .section-title {
+    font-size: $size4;
+    font-weight: 500;
+    color: $color4;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    text-decoration: overline underline;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+  }
+  @media (max-width: 767px) {
+    .section-title {
+      font-size: $size6;
+    }
+  }
+  position: relative;
+  header {
+    background-color: $bccolor1;
+    font-weight: 500;
+    font-size: $size2;
+    .dropdown-menu {
+      background-color: $bccolor1;
+      .dropdown-item {
+        background-color: $bccolor1;
+        font-weight: 500;
+        font-size: $size2;
+
+      }
+    }
+  }
+  .biography {
+    p {
+      font-size: $size3;
+      font-style:italic;
+      margin: 0;
+      font-family: 'Balsamiq Sans';
+      text-indent: $size4;
+    }
+    @media (min-width: 1200px) {
+      p {
+        font-size: $size2;
+      }
+    }
+  }
+  .career {
+    width: 75%;
+    margin: 5px auto;
+    div {
+      div{
+        div {
+          div {
+            margin: 0 auto;
+            width: 50%;
+            background-color: rgba($color: #000000, $alpha: 0.7);
+            h5 {
+              margin: 0;
+              padding: 0;
+            }
+            p {
+              padding: 0;
+              margin: 0;
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    
+    }
+  
+  }
+  .photo {
+    div {
+      width: 280px;
+      margin: 10px; 
+     img {
+        width: 100%; 
+      }
+     p {
+       font-size: $size2;
+       font-weight: 700;
+       color: $color1;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       
+      }
+    } 
+    div:hover {
+      display: bock;
+      transition: transform .5s;
+      transform: scale(1.1);
+      border-style: ridge;
+    }
+  }
+  .video {
+    div {
+      margin: 10px;
+      width: 320px;
+      height: 250px;
+      position: relative;
+      background-color: rgba( $color4, $alpha: 0.95);
+      div {
+        margin: -0.5px 1px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        .description {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: $size2;
+          font-weight: 700;
+          text-align: center;
+          color: $color3;
+          text-transform: uppercase;
+          font-family: 'Plus Jakarta Sans';
+
+        }
+      }
+    }
+    div:hover {
+      background-color: none;
+      div {
+        display: none;
+      }
+    }
+  }
+  .quotes {
+    div {
+      margin: 10px;
+      background-color: $color4;
+      border-radius: 12px;
+      h5 {
+        color: $color3;
+        font-family: 'Balsamiq Sans';
+      }
+      p {
+        color: $color3;
+        font-family: 'Balsamiq Sans';
+      }
+    }
+  }
+  .contact {
+    .social-media {
+      display: flex;
+      flex-direction: column;
+      div { 
+        width: $size5;
+        height: $size5;
+        margin: $size4 auto;
+        border-radius: $size4;
+      }
+      .fb {
+        background-image: url(..//Images/social_medias/facebook.png);
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .insta {
+        background-image: url(..//Images/social_medias/instagram.png);
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .youtube {
+        background-image: url(..//Images/social_medias/youtube.png);
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+    }
+    @media (max-width: 767px) {
+      .social-media {
+        display: flex;
+        flex-direction:row;
+        justify-content: space-around;
+
+
+      }
+    }
+  }
+  footer {
+    background-color: $bccolor1;
+    .author {
+      font-size: $size1;
+      text-decoration: none;
+      color: $color2;
+      font-family: 'Balsamiq Sans';
+    }
+    div {
+      a {
+        font-size: $size1;
+        text-decoration: none;
+        color: $color2;
+      }
+    }
+    
+  }
+}

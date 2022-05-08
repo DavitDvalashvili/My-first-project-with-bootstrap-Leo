@@ -1,0 +1,230 @@
+body {
+  position: relative;
+}
+
+body .section-title {
+  font-size: 22px;
+  font-weight: 500;
+  color: #173E69;
+  font-style: italic;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 60px;
+  text-decoration: overline underline;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 800;
+}
+
+@media (max-width: 767px) {
+  body .section-title {
+    font-size: 18px;
+  }
+}
+
+body header {
+  background-color: #43A1D5;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+body header .dropdown-menu {
+  background-color: #43A1D5;
+}
+
+body header .dropdown-menu .dropdown-item {
+  background-color: #43A1D5;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+body .biography p {
+  font-size: 12px;
+  font-style: italic;
+  margin: 0;
+  font-family: 'Balsamiq Sans';
+}
+
+@media (min-width: 1200px) {
+  body .biography p {
+    font-size: 15px;
+  }
+}
+
+body .career {
+  width: 75%;
+  margin: 5px auto;
+}
+
+body .career div div div div {
+  margin: 0 auto;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+body .career div div div div h5 {
+  margin: 0;
+  padding: 0;
+}
+
+body .career div div div div p {
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+}
+
+body .photo div {
+  width: 280px;
+  margin: 10px;
+}
+
+body .photo div img {
+  width: 100%;
+}
+
+body .photo div p {
+  font-size: 15px;
+  font-weight: 700;
+  color: #D5B048;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body .photo div:hover {
+  display: bock;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border-style: ridge;
+}
+
+body .video div {
+  margin: 10px;
+  width: 320px;
+  height: 250px;
+  position: relative;
+  background-color: rgba(23, 62, 105, 0.95);
+}
+
+body .video div div {
+  margin: -0.5px 1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body .video div div .description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Plus Jakarta Sans';
+}
+
+body .video div:hover {
+  background-color: none;
+}
+
+body .video div:hover div {
+  display: none;
+}
+
+body .quotes div {
+  margin: 10px;
+  background-color: #173E69;
+  border-radius: 12px;
+}
+
+body .quotes div h5 {
+  color: white;
+  font-family: 'Balsamiq Sans';
+}
+
+body .quotes div p {
+  color: white;
+  font-family: 'Balsamiq Sans';
+}
+
+body .contact .social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .contact .social-media div {
+  width: 40px;
+  height: 40px;
+  margin: 22px auto;
+  border-radius: 22px;
+}
+
+body .contact .social-media .fb {
+  background-image: url(..//Images/social_medias/facebook.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body .contact .social-media .insta {
+  background-image: url(..//Images/social_medias/instagram.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body .contact .social-media .youtube {
+  background-image: url(..//Images/social_medias/youtube.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+  body .contact .social-media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+body footer {
+  background-color: #43A1D5;
+}
+
+body footer .author {
+  font-size: 10px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Balsamiq Sans';
+}
+
+body footer div a {
+  font-size: 10px;
+  text-decoration: none;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */

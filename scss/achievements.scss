@@ -1,0 +1,164 @@
+// color
+$bccolor1: #43A1D5;
+$color1: #f5be0b;
+$color2: black;
+$color3: white;
+$color4: #173E69;
+
+// size
+$size1: 13px; 
+$size2: 18px;
+$size3: 12px;
+$size4: 22px;
+$size5: 30px;
+$size6: 18px;
+
+body {
+  .section-title {
+    font-size: $size4;
+    font-weight: 500;
+    color: $color4;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    text-decoration: overline underline;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+  }
+  @media (max-width: 767px) {
+    .section-title {
+      font-size: $size6;
+    }
+  }
+  header {
+    background-color: $bccolor1;
+    font-weight: 500;
+    font-size: $size2;
+    .dropdown-menu {
+      background-color: $bccolor1;
+      .dropdown-item {
+        background-color: $bccolor1;
+        font-weight: 500;
+        font-size: $size2;
+        
+      }  
+    }
+            
+  }
+  section {
+    div {
+      div {
+        margin-right:  25%;
+        @media (max-width: 720px) {
+          margin-right: 0px;
+        }
+
+        div {
+          width: 200px;
+          height: fit-content;
+          margin: 10px;
+          h4 {
+            margin: $size6  auto;
+            width: 100px;
+            text-align: center;
+            font-size: $size2;
+            color: $color1;
+            font-family: 'Plus Jakarta Sans';
+            font-weight: 700;
+          }
+          img {
+            display: flex;
+            justify-content: center;
+            margin: $size6 auto;
+            width: 100px;
+          }
+          img:hover {
+            width: 110px;
+            transition-duration: 100ms;
+          }
+          p {
+            margin: $size6 auto;
+            width: 100px;
+            text-align: center;
+            font-size: $size1;
+            color: $color1;
+            font-family: 'Plus Jakarta Sans';
+            font-weight: 700;
+          }
+        }
+      }
+
+    }
+    .barcelona-wrapper {
+      background-image: url(../Images/bc.messi2.png);
+      background-position: right;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: fit-content;
+      @media (max-width: 720px) {
+        background-position: center;
+      }
+    }
+    .argentina-wrapper {
+      background-image: url(../Images/bc.messi1.png);
+      background-position: left;
+      background-repeat: no-repeat;
+      width: 100%;
+      @media (max-width: 821px) {
+        background-position: center;
+        height: 100%;
+        width: auto;
+      }
+      div {
+        margin-right: 0%;
+        margin-left: 20%;
+        @media (max-width: 821px) {
+          margin-left: 0px;
+        }
+
+      }
+    }
+    .individual {
+      background-image: url(../Images/bc.messi3.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      div {
+        margin-right: 0%;
+        margin-left: 0%;
+      }
+    }
+    .records-wrapper {
+      background-image: url(../Images/bc.messi4.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: space-between;
+      font-size: $size2;
+      font-family: 'Balsamiq Sans';
+      @media (max-width: 712px) {
+        display: block;
+      }
+      ul {
+        li {
+          margin: $size2 0;
+        }
+      }
+    }
+  }
+  footer {
+    background-color: $bccolor1;
+    .author {
+      font-size: $size1;
+      text-decoration: none;
+      color: $color2;
+    }
+    div {
+      a {
+        font-size: $size1;
+        text-decoration: none;
+        color: $color2;
+      }
+    } 
+  }
+}

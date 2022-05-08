@@ -1,0 +1,187 @@
+body .section-title {
+  font-size: 22px;
+  font-weight: 500;
+  color: #173E69;
+  font-style: italic;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 60px;
+  text-decoration: overline underline;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 800;
+}
+
+@media (max-width: 767px) {
+  body .section-title {
+    font-size: 18px;
+  }
+}
+
+body header {
+  background-color: #43A1D5;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+body header .dropdown-menu {
+  background-color: #43A1D5;
+}
+
+body header .dropdown-menu .dropdown-item {
+  background-color: #43A1D5;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+body section div div {
+  margin-right: 25%;
+}
+
+@media (max-width: 720px) {
+  body section div div {
+    margin-right: 0px;
+  }
+}
+
+body section div div div {
+  width: 200px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 10px;
+}
+
+body section div div div h4 {
+  margin: 18px auto;
+  width: 100px;
+  text-align: center;
+  font-size: 18px;
+  color: #f5be0b;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 700;
+}
+
+body section div div div img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 18px auto;
+  width: 100px;
+}
+
+body section div div div img:hover {
+  width: 110px;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+}
+
+body section div div div p {
+  margin: 18px auto;
+  width: 100px;
+  text-align: center;
+  font-size: 13px;
+  color: #f5be0b;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 700;
+}
+
+body section .barcelona-wrapper {
+  background-image: url(../Images/bc.messi2.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+@media (max-width: 720px) {
+  body section .barcelona-wrapper {
+    background-position: center;
+  }
+}
+
+body section .argentina-wrapper {
+  background-image: url(../Images/bc.messi1.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+@media (max-width: 821px) {
+  body section .argentina-wrapper {
+    background-position: center;
+    height: 100%;
+    width: auto;
+  }
+}
+
+body section .argentina-wrapper div {
+  margin-right: 0%;
+  margin-left: 20%;
+}
+
+@media (max-width: 821px) {
+  body section .argentina-wrapper div {
+    margin-left: 0px;
+  }
+}
+
+body section .individual {
+  background-image: url(../Images/bc.messi3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body section .individual div {
+  margin-right: 0%;
+  margin-left: 0%;
+}
+
+body section .records-wrapper {
+  background-image: url(../Images/bc.messi4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 18px;
+  font-family: 'Balsamiq Sans';
+}
+
+@media (max-width: 712px) {
+  body section .records-wrapper {
+    display: block;
+  }
+}
+
+body section .records-wrapper ul li {
+  margin: 18px 0;
+}
+
+body footer {
+  background-color: #43A1D5;
+}
+
+body footer .author {
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+}
+
+body footer div a {
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+}
+/*# sourceMappingURL=achievements.css.map */

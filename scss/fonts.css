@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Balsamiq Sans';
+    src: url('../fonts/BalsamiqSans-Regular.ttf');
+    src:url('../fonts/BalsamiqSans-Regular.woff2') format('woff2'),
+        url('../fonts/BalsamiqSans-Regular.woff') format('woff'),
+        url('../fonts/BalsamiqSans-Regular.eot') format('eot'),
+        url('BalsamiqSans-Regular.svg#BalsamiqSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url('../fonts/PlusJakartaSans-Regular.eot'); 
+    src: url('../fonts/PlusJakartaSans-Regular.woff2') format('woff2'),
+        url('../fonts/BalsamiqSans-Regular.woff') format('woff'),
+        url('../fonts/PlusJakartaSans-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
